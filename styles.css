@@ -3,10 +3,28 @@
 }
 
 html, body {
+	font-family: helvetica;
 	margin: 0;
 }
 
-header, footer {
+header {
+	background-color: pink;
+	width: 800px;
+	margin: 20px;
+	padding: 20px;
+	margin: 20px auto;
+	font-family: helvetica;
+
+}
+
+footer {
+	background-color: pink;
+	max-width: 800px;
+	padding: 20px;
+	margin: 20px auto;
+	font-family: helvetica;
+	text-align: center;
+
 
 }
 
@@ -18,7 +36,11 @@ header .subtitle {
 
 }
 
-h1 {
+h1 {font-family: helvetica;
+	color: purple;
+	font-variant: small-caps;
+	text-align: center;
+
 
 }
 
@@ -31,7 +53,8 @@ ul li {
 	width: 50%;
 }
 
-main {
+main {max-width: 660px;
+	margin: auto;
 
 }
 
@@ -39,11 +62,15 @@ section {
 
 }
 
-h2 {
+h2 {color: purple;
+	font-family: helvetica;
+	font-variant: small-caps;
+	font-weight: 800;
 
 }
 
-h3 {
+h3 {color: pink;
+	text-decoration: underline;
 
 }
 
